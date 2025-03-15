@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT2TikTok - Convert YouTube Content to TikTok Videos</title>
+    <style>
+        :root {
+            --primary: #FE2C55;
+            --secondary: #25F4EE;
+            --dark: #121212;
+            --light: #F8F8F8;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        
+        .hero {
+            padding: 3rem 1rem;
+            text-align: center;
+            background-color: white;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        
+        .cta-button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .cta-button:hover {
+            background-color: #e62950;
+        }
+        
+        .features {
+            padding: 3rem 1rem;
+            background-color: #f5f5f5;
+        }
+        
+        .features h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+        
+        .how-it-works {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        
+        .step-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 2rem auto;
+            gap: 2rem;
+        }
+        
+        .step {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            padding: 1.5rem;
+        }
+        
+        .step-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1rem;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        
+        .footer-links {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: white;
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">YT2TikTok</div>
+        <div class="tagline">Transform YouTube Content into TikTok-Ready Videos</div>
+    </header>
+    
+    <section class="hero">
+        <h1>YouTube to TikTok, Simplified</h1>
+        <p>Repurpose your YouTube content for TikTok with just a few clicks. Our tool helps creators save time by automatically extracting engaging clips, adding captions, and uploading directly to TikTok.</p>
+        <a href="#" class="cta-button">Coming Soon</a>
+    </section>
+    
+    <section class="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Smart Clip Selection</h3>
+                <p>Our algorithm identifies the most engaging parts of your YouTube videos, perfect for TikTok's format.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Automatic Captions</h3>
+                <p>Extract and optimize captions from your original content for maximum engagement.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Direct Upload</h3>
+                <p>Send videos straight to TikTok without leaving the app - no manual uploads required.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Scheduled Posting</h3>
+                <p>Queue multiple clips and schedule them to post at optimal times.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Format Optimization</h3>
+                <p>Automatically adjust video format, ratios, and dimensions for TikTok's requirements.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Content Database</h3>
+                <p>Keep track of what you've posted and measure performance across platforms.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="step-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Connect Accounts</h3>
+                <p>Link your YouTube and TikTok accounts to our secure platform.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Select Content</h3>
+                <p>Choose which YouTube videos you want to repurpose for TikTok.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Review & Edit</h3>
+                <p>Approve auto-generated clips or make custom edits.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Schedule & Post</h3>
+                <p>Publish immediately or schedule for later - we handle the upload.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="terms-of-service">Terms of Service</a>
+            <a href="privacy-policy">Privacy Policy</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="copyright">
+            &copy; 2025 YT2TikTok. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
